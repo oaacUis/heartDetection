@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  api:
+    image: api_image:latest
+    ports:
+    - "5001:5001"
+    networks:
+    - app-network
+    deploy:
+      replicas: 3
+      update_config:
+        parallelism: 2
+        delay: 10s
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1024M
+      restart_policy:
+        condition: on-failure
+
+  visualizer:
+    image: dockersamples/visualizer
+    ports:
+    - 8080:8080
+    volumes:
+    - /var/run/docker.sock:/var/run/docker.sock:ro
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+
+
+networks:
+  app-network:
+    driver: overlay

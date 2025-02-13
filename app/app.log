@@ -1,0 +1,765 @@
+2024-05-05 11:58:53,524 - INFO - Starting FCV-MLAPI....
+2024-05-05 12:09:56,654 - INFO - Starting FCV-MLAPI....
+2024-05-05 13:08:56,550 - INFO - Starting FCV-MLAPI....
+2024-05-05 13:09:08,139 - INFO - {'url': '/docs', 'method': <starlette.middleware.base._CachedRequest object at 0x0000012D254E7190>, 'date': '05/05/2024 13:09:08', 'duration': 0.0020029544830322266}
+2024-05-05 13:09:08,887 - INFO - {'url': '/openapi.json', 'method': <starlette.middleware.base._CachedRequest object at 0x0000012D24414590>, 'date': '05/05/2024 13:09:08', 'duration': 0.006998538970947266}
+2024-05-05 13:09:09,696 - INFO - {'url': '/', 'method': <starlette.middleware.base._CachedRequest object at 0x0000012D255F2B90>, 'date': '05/05/2024 13:09:09', 'duration': 0.0010025501251220703}
+2024-05-05 13:09:10,031 - INFO - {'url': '/favicon.ico', 'method': <starlette.middleware.base._CachedRequest object at 0x0000012D255AE490>, 'date': '05/05/2024 13:09:10', 'duration': 0.0010001659393310547}
+2024-05-05 13:10:40,316 - INFO - Starting FCV-MLAPI....
+2024-05-05 13:10:42,841 - INFO - {'url': '/', 'method': 'GET', 'date': '05/05/2024 13:10:42', 'duration': 0.000997781753540039}
+2024-05-05 13:12:05,320 - INFO - {'url': '/predict', 'method': 'POST', 'date': '05/05/2024 13:12:05', 'duration': 0.6828296184539795}
+2024-05-05 13:19:01,708 - INFO - Starting FCV-MLAPI....
+2024-05-05 13:23:35,525 - INFO - Starting FCV-MLAPI....
+2024-05-05 13:23:40,324 - INFO - {'url': '/predict', 'method': 'POST', 'date': '05/05/2024 13:23:40', 'duration': 0.6412081718444824}
+2024-06-11 14:03:44,446 , INFO , Starting FCV-MLAPI....
+2024-06-12 16:47:01,002 , INFO , Starting FCV-MLAPI....
+2024-06-13 06:22:24,428 , INFO , Starting FCV-MLAPI....
+2024-06-13 06:22:42,189 , INFO , {'url': '/', 'method': 'GET', 'date': '13/06/2024 06:22:42', 'duration': 0.02599954605102539}
+2024-06-13 06:22:42,600 , INFO , {'url': '/favicon.ico', 'method': 'GET', 'date': '13/06/2024 06:22:42', 'duration': 0.0010025501251220703}
+2024-06-13 06:23:55,996 , INFO , {'url': '/docs', 'method': 'GET', 'date': '13/06/2024 06:23:55', 'duration': 0.0010044574737548828}
+2024-06-13 06:23:57,257 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '13/06/2024 06:23:57', 'duration': 0.03000473976135254}
+2024-06-13 06:26:15,720 , INFO , {'url': '/auth/', 'method': 'POST', 'date': '13/06/2024 06:26:15', 'duration': 0.6969640254974365}
+2024-06-13 06:32:08,181 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '13/06/2024 06:32:08', 'duration': 0.6640031337738037}
+2024-06-13 06:35:05,014 , INFO , {'url': '/docs', 'method': 'GET', 'date': '13/06/2024 06:35:05', 'duration': 0.0009970664978027344}
+2024-06-13 06:35:05,568 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '13/06/2024 06:35:05', 'duration': 0.0010035037994384766}
+2024-06-13 06:35:20,965 , INFO , {'url': '/docs', 'method': 'GET', 'date': '13/06/2024 06:35:20', 'duration': 0.0}
+2024-06-13 06:35:21,264 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '13/06/2024 06:35:21', 'duration': 0.0010020732879638672}
+2024-06-13 06:36:04,626 , INFO , {'url': '/home', 'method': 'GET', 'date': '13/06/2024 06:36:04', 'duration': 0.0010018348693847656}
+2024-06-13 06:36:41,960 , INFO , {'url': '/predict', 'method': 'POST', 'date': '13/06/2024 06:36:41', 'duration': 1.4350006580352783}
+2024-06-13 06:47:28,994 , INFO , Starting FCV-MLAPI....
+2024-06-13 06:47:38,107 , INFO , {'url': '/docs', 'method': 'GET', 'date': '13/06/2024 06:47:38', 'duration': 0.0010020732879638672}
+2024-06-13 06:47:38,690 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '13/06/2024 06:47:38', 'duration': 0.02700018882751465}
+2024-06-13 07:06:27,467 , INFO , Starting FCV-MLAPI....
+2024-06-13 07:07:03,524 , INFO , {'url': '/docs', 'method': 'GET', 'date': '13/06/2024 07:07:03', 'duration': 0.0010333061218261719}
+2024-06-13 07:07:04,140 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '13/06/2024 07:07:04', 'duration': 0.03199267387390137}
+2024-06-13 07:07:28,423 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '13/06/2024 07:07:28', 'duration': 0.6429991722106934}
+2024-06-13 07:07:56,747 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '13/06/2024 07:07:56', 'duration': 0.006001472473144531}
+2024-06-13 07:08:07,467 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '13/06/2024 07:08:07', 'duration': 0.008001089096069336}
+2024-06-13 07:08:10,046 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '13/06/2024 07:08:10', 'duration': 0.00600123405456543}
+2024-06-13 07:08:49,372 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '13/06/2024 07:08:49', 'duration': 0.4799966812133789}
+2024-06-13 07:10:32,582 , INFO , Starting FCV-MLAPI....
+2024-06-13 07:11:41,581 , INFO , {'url': '/docs', 'method': 'GET', 'date': '13/06/2024 07:11:41', 'duration': 0.002001047134399414}
+2024-06-13 07:11:42,101 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '13/06/2024 07:11:42', 'duration': 0.02800273895263672}
+2024-06-13 07:11:55,814 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '13/06/2024 07:11:55', 'duration': 0.5320076942443848}
+2024-06-13 07:12:21,339 , INFO , {'url': '/predict', 'method': 'POST', 'date': '13/06/2024 07:12:21', 'duration': 0.7490005493164062}
+2024-06-19 19:22:58,419 , INFO , Starting FCV-MLAPI....
+2024-06-19 19:23:18,693 , INFO , {'url': '/', 'method': 'GET', 'date': '19/06/2024 19:23:18', 'duration': 0.00087738037109375}
+2024-06-19 19:23:26,864 , INFO , {'url': '/docs', 'method': 'GET', 'date': '19/06/2024 19:23:26', 'duration': 0.0}
+2024-06-19 19:23:27,408 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '19/06/2024 19:23:27', 'duration': 0.015307903289794922}
+2024-06-19 19:26:05,906 , INFO , {'url': '/auth/create_user', 'method': 'POST', 'date': '19/06/2024 19:26:05', 'duration': 0.744603157043457}
+2024-06-19 19:27:10,704 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '19/06/2024 19:27:10', 'duration': 0.5932703018188477}
+2024-06-19 19:27:42,430 , INFO , {'url': '/home', 'method': 'GET', 'date': '19/06/2024 19:27:42', 'duration': 0.0}
+2024-06-19 19:32:43,285 , INFO , {'url': '/predict', 'method': 'POST', 'date': '19/06/2024 19:32:43', 'duration': 0.004914283752441406}
+2024-06-19 19:34:04,256 , INFO , {'url': '/', 'method': 'GET', 'date': '19/06/2024 19:34:04', 'duration': 0.0}
+2024-06-19 19:34:28,720 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '19/06/2024 19:34:28', 'duration': 0.5698573589324951}
+2024-06-19 19:34:52,037 , INFO , {'url': '/', 'method': 'GET', 'date': '19/06/2024 19:34:52', 'duration': 0.0}
+2024-06-19 19:35:46,887 , INFO , {'url': '/home', 'method': 'GET', 'date': '19/06/2024 19:35:46', 'duration': 0.0010464191436767578}
+2024-06-19 20:08:35,234 , INFO , {'url': '/', 'method': 'GET', 'date': '19/06/2024 20:08:35', 'duration': 0.0010075569152832031}
+2024-06-19 20:08:51,473 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '19/06/2024 20:08:51', 'duration': 0.28534698486328125}
+2024-06-19 20:08:56,994 , INFO , {'url': '/', 'method': 'GET', 'date': '19/06/2024 20:08:56', 'duration': 0.0024340152740478516}
+2024-06-19 20:09:11,088 , INFO , {'url': '/predict', 'method': 'POST', 'date': '19/06/2024 20:09:11', 'duration': 0.6995282173156738}
+2024-06-22 11:05:58,476 , INFO , Starting FCV-MLAPI....
+2024-06-22 11:06:18,893 , INFO , {'url': '/', 'method': 'GET', 'date': '22/06/2024 11:06:18', 'duration': 0.005013465881347656}
+2024-06-22 11:06:40,460 , INFO , {'url': '/docs', 'method': 'GET', 'date': '22/06/2024 11:06:40', 'duration': 0.0010008811950683594}
+2024-06-22 11:06:41,165 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '22/06/2024 11:06:41', 'duration': 0.03244614601135254}
+2024-06-22 11:07:09,819 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '22/06/2024 11:07:09', 'duration': 0.432415246963501}
+2024-06-22 11:07:40,215 , INFO , {'url': '/home', 'method': 'GET', 'date': '22/06/2024 11:07:40', 'duration': 0.0009882450103759766}
+2024-06-22 11:12:25,890 , INFO , {'url': '/predict', 'method': 'POST', 'date': '22/06/2024 11:12:25', 'duration': 4.85954475402832}
+2024-06-22 19:30:39,185 , INFO , Starting FCV-MLAPI....
+2024-06-22 20:01:03,687 , INFO , Starting FCV-MLAPI....
+2024-06-22 20:57:40,868 , INFO , Starting FCV-MLAPI....
+2024-06-22 20:57:43,909 , INFO , {'url': '/', 'method': 'GET', 'date': '22/06/2024 20:57:43', 'duration': 0.0030007362365722656}
+2024-06-22 20:57:52,106 , INFO , {'url': '/docs', 'method': 'GET', 'date': '22/06/2024 20:57:52', 'duration': 0.0010046958923339844}
+2024-06-22 20:57:53,015 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '22/06/2024 20:57:53', 'duration': 0.01598525047302246}
+2024-06-22 20:58:15,862 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '22/06/2024 20:58:15', 'duration': 0.40964460372924805}
+2024-06-22 21:06:00,191 , INFO , {'url': '/predict', 'method': 'POST', 'date': '22/06/2024 21:06:00', 'duration': 0.04199576377868652}
+2024-06-24 12:17:43,001 , INFO , Starting FCV-MLAPI....
+2024-06-24 12:17:47,518 , INFO , {'url': '/', 'method': 'GET', 'date': '24/06/2024 12:17:47', 'duration': 0.0020110607147216797}
+2024-06-24 12:17:50,720 , INFO , {'url': '/docs', 'method': 'GET', 'date': '24/06/2024 12:17:50', 'duration': 0.0010843276977539062}
+2024-06-24 12:17:51,291 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '24/06/2024 12:17:51', 'duration': 0.05018424987792969}
+2024-06-24 12:23:43,296 , INFO , {'url': '/home', 'method': 'GET', 'date': '24/06/2024 12:23:43', 'duration': 0.0010023117065429688}
+2024-06-24 12:29:00,587 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '24/06/2024 12:29:00', 'duration': 0.6174061298370361}
+2024-06-24 12:31:55,823 , INFO , {'url': '/predict', 'method': 'POST', 'date': '24/06/2024 12:31:55', 'duration': 5.288356065750122}
+2024-06-24 17:08:26,117 , INFO , Starting FCV-MLAPI....
+2024-06-24 17:09:36,079 , INFO , {'url': '/docs', 'method': 'GET', 'date': '24/06/2024 17:09:36', 'duration': 0.0009984970092773438}
+2024-06-24 17:09:36,460 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '24/06/2024 17:09:36', 'duration': 0.09199094772338867}
+2024-06-24 17:09:49,264 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '24/06/2024 17:09:49', 'duration': 0.4582028388977051}
+2024-06-24 17:14:29,137 , INFO , {'url': '/predict', 'method': 'POST', 'date': '24/06/2024 17:14:29', 'duration': 6.680691719055176}
+2024-07-01 16:49:12,250 , INFO , Starting FCV-MLAPI....
+2024-07-01 16:53:39,816 , INFO , Starting FCV-MLAPI....
+2024-07-01 16:53:43,206 , INFO , {'url': '/', 'method': 'GET', 'date': '01/07/2024 16:53:43', 'duration': 0.0010004043579101562}
+2024-07-01 16:53:53,251 , INFO , {'url': '/docs', 'method': 'GET', 'date': '01/07/2024 16:53:53', 'duration': 0.0006039142608642578}
+2024-07-01 16:53:53,633 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '01/07/2024 16:53:53', 'duration': 0.010141134262084961}
+2024-07-01 16:54:04,388 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '01/07/2024 16:54:04', 'duration': 0.35404062271118164}
+2024-07-01 16:54:47,588 , INFO , {'url': '/predict', 'method': 'POST', 'date': '01/07/2024 16:54:47', 'duration': 0.33078670501708984}
+2024-07-11 17:11:09,291 , INFO , Starting FCV-MLAPI....
+2024-07-11 17:11:28,335 , INFO , {'url': '/docs', 'method': 'GET', 'date': '11/07/2024 17:11:28', 'duration': 0.0006287097930908203}
+2024-07-11 17:11:28,637 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '11/07/2024 17:11:28', 'duration': 0.029978275299072266}
+2024-07-11 17:11:48,486 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '11/07/2024 17:11:48', 'duration': 0.41628479957580566}
+2024-07-11 17:17:04,370 , INFO , Starting FCV-MLAPI....
+2024-07-11 17:17:26,624 , INFO , Starting FCV-MLAPI....
+2024-07-11 17:17:54,763 , INFO , {'url': '/docs', 'method': 'GET', 'date': '11/07/2024 17:17:54', 'duration': 0.0010900497436523438}
+2024-07-11 17:17:54,987 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '11/07/2024 17:17:54', 'duration': 0.015271425247192383}
+2024-07-11 17:18:08,470 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '11/07/2024 17:18:08', 'duration': 0.36872363090515137}
+2024-07-11 17:18:26,147 , INFO , {'url': '/predict', 'method': 'POST', 'date': '11/07/2024 17:18:26', 'duration': 0.32122111320495605}
+2024-07-15 10:27:59,098 , INFO , Starting FCV-MLAPI....
+2024-07-15 10:29:13,040 , INFO , {'url': '/', 'method': 'GET', 'date': '15/07/2024 10:29:13', 'duration': 0.0024633407592773438}
+2024-07-15 10:29:17,258 , INFO , {'url': '/docs', 'method': 'GET', 'date': '15/07/2024 10:29:17', 'duration': 0.0003745555877685547}
+2024-07-15 10:29:17,524 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '15/07/2024 10:29:17', 'duration': 0.034188032150268555}
+2024-07-15 10:29:28,897 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '15/07/2024 10:29:28', 'duration': 0.5046391487121582}
+2024-07-15 10:29:48,865 , INFO , {'url': '/predict', 'method': 'POST', 'date': '15/07/2024 10:29:48', 'duration': 1.0254793167114258}
+2024-07-15 10:36:39,061 , INFO , {'url': '/predict', 'method': 'POST', 'date': '15/07/2024 10:36:39', 'duration': 0.6603248119354248}
+2024-07-16 12:27:08,999 , INFO , Starting FCV-MLAPI....
+2024-07-16 12:27:12,958 , INFO , {'url': '/', 'method': 'GET', 'date': '16/07/2024 12:27:12', 'duration': 0.0014684200286865234}
+2024-07-16 12:27:18,883 , INFO , {'url': '/docs', 'method': 'GET', 'date': '16/07/2024 12:27:18', 'duration': 0.0004818439483642578}
+2024-07-16 12:27:19,506 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '16/07/2024 12:27:19', 'duration': 0.056345462799072266}
+2024-07-16 12:27:26,863 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '16/07/2024 12:27:26', 'duration': 0.5615289211273193}
+2024-07-16 12:27:46,176 , INFO , {'url': '/predict', 'method': 'POST', 'date': '16/07/2024 12:27:46', 'duration': 3.5660359859466553}
+2024-07-18 13:15:44,055 , INFO , Starting FCV-MLAPI....
+2024-07-18 13:15:48,297 , INFO , {'url': '/docs', 'method': 'GET', 'date': '18/07/2024 13:15:48', 'duration': 0.0009875297546386719}
+2024-07-18 13:15:48,685 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '18/07/2024 13:15:48', 'duration': 0.05223870277404785}
+2024-07-18 13:16:06,242 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '18/07/2024 13:16:06', 'duration': 0.6426177024841309}
+2024-07-18 13:16:29,002 , INFO , {'url': '/predict', 'method': 'POST', 'date': '18/07/2024 13:16:29', 'duration': 1.8498506546020508}
+2024-07-21 10:37:20,606 , INFO , Starting FCV-MLAPI....
+2024-07-21 10:37:30,789 , INFO , {'url': '/', 'method': 'GET', 'date': '21/07/2024 10:37:30', 'duration': 0.0011317729949951172}
+2024-07-21 10:37:35,380 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 10:37:35', 'duration': 0.00048160552978515625}
+2024-07-21 10:37:35,666 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 10:37:35', 'duration': 0.04914116859436035}
+2024-07-21 10:37:45,437 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 10:37:45', 'duration': 0.37658023834228516}
+2024-07-21 10:38:09,308 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 10:38:09', 'duration': 1.9307501316070557}
+2024-07-21 10:38:14,961 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 10:38:14', 'duration': 0.11247992515563965}
+2024-07-21 10:52:48,811 , INFO , Starting FCV-MLAPI....
+2024-07-21 10:53:16,768 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 10:53:16', 'duration': 0.0010056495666503906}
+2024-07-21 10:53:17,019 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 10:53:17', 'duration': 0.07291674613952637}
+2024-07-21 10:54:36,687 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 10:54:36', 'duration': 0.41577672958374023}
+2024-07-21 10:54:59,801 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 10:54:59', 'duration': 1.1329541206359863}
+2024-07-21 10:57:20,168 , INFO , Starting FCV-MLAPI....
+2024-07-21 11:03:07,797 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 11:03:07', 'duration': 0.0007660388946533203}
+2024-07-21 11:03:08,060 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 11:03:08', 'duration': 0.08612775802612305}
+2024-07-21 11:14:31,657 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 11:14:31', 'duration': 0.4862487316131592}
+2024-07-21 11:14:53,229 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 11:14:53', 'duration': 0.006097316741943359}
+2024-07-21 11:14:54,986 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 11:14:54', 'duration': 0.0497283935546875}
+2024-07-21 11:15:18,898 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 11:15:18', 'duration': 0.34231090545654297}
+2024-07-21 11:15:38,388 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 11:15:38', 'duration': 0.0007579326629638672}
+2024-07-21 11:15:38,597 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 11:15:38', 'duration': 0.0007815361022949219}
+2024-07-21 11:15:51,247 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 11:15:51', 'duration': 0.324310302734375}
+2024-07-21 11:17:57,719 , INFO , Starting FCV-MLAPI....
+2024-07-21 11:18:03,173 , INFO , Starting FCV-MLAPI....
+2024-07-21 11:18:08,642 , INFO , Starting FCV-MLAPI....
+2024-07-21 11:21:01,599 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 11:21:01', 'duration': 0.0009691715240478516}
+2024-07-21 11:21:01,982 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 11:21:01', 'duration': 0.04962158203125}
+2024-07-21 11:21:17,132 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 11:21:17', 'duration': 0.4155464172363281}
+2024-07-21 11:21:31,396 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 11:21:31', 'duration': 0.17594432830810547}
+2024-07-21 11:21:32,577 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 11:21:32', 'duration': 0.1011209487915039}
+2024-07-21 11:35:14,103 , INFO , Starting FCV-MLAPI....
+2024-07-21 11:35:20,857 , INFO , Starting FCV-MLAPI....
+2024-07-21 11:35:53,361 , INFO , Starting FCV-MLAPI....
+2024-07-21 11:35:59,726 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 11:35:59', 'duration': 0.0008378028869628906}
+2024-07-21 11:35:59,998 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 11:35:59', 'duration': 0.030254602432250977}
+2024-07-21 11:36:09,909 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 11:36:09', 'duration': 0.3747682571411133}
+2024-07-21 11:36:28,581 , INFO , {'url': '/', 'method': 'GET', 'date': '21/07/2024 11:36:28', 'duration': 0.0026803016662597656}
+2024-07-21 11:38:58,318 , INFO , Starting FCV-MLAPI....
+2024-07-21 11:39:40,524 , INFO , Starting FCV-MLAPI....
+2024-07-21 11:39:45,265 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 11:39:45', 'duration': 0.0017485618591308594}
+2024-07-21 11:39:45,520 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 11:39:45', 'duration': 0.01623225212097168}
+2024-07-21 11:39:53,640 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 11:39:53', 'duration': 0.33762168884277344}
+2024-07-21 11:40:15,171 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 11:40:15', 'duration': 0.18376731872558594}
+2024-07-21 11:41:04,830 , INFO , Starting FCV-MLAPI....
+2024-07-21 11:51:40,519 , INFO , Starting FCV-MLAPI....
+2024-07-21 12:01:34,133 , INFO , Starting FCV-MLAPI....
+2024-07-21 12:03:39,986 , INFO , Starting FCV-MLAPI....
+2024-07-21 12:27:25,418 , INFO , Starting FCV-MLAPI....
+2024-07-21 12:27:51,100 , INFO , Starting FCV-MLAPI....
+2024-07-21 12:28:00,861 , INFO , Starting FCV-MLAPI....
+2024-07-21 12:28:15,674 , INFO , Starting FCV-MLAPI....
+2024-07-21 12:28:37,685 , INFO , Starting FCV-MLAPI....
+2024-07-21 12:28:51,265 , INFO , Starting FCV-MLAPI....
+2024-07-21 12:38:18,126 , INFO , Starting FCV-MLAPI....
+2024-07-21 12:38:29,805 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 12:38:29', 'duration': 0.0008573532104492188}
+2024-07-21 12:38:30,082 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 12:38:30', 'duration': 0.08975410461425781}
+2024-07-21 12:38:42,274 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 12:38:42', 'duration': 0.5209183692932129}
+2024-07-21 12:38:52,600 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 12:38:52', 'duration': 1.1818692684173584}
+2024-07-21 13:09:17,899 , INFO , Starting FCV-MLAPI....
+2024-07-21 13:09:45,534 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 13:09:45', 'duration': 0.0006668567657470703}
+2024-07-21 13:09:45,776 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 13:09:45', 'duration': 0.029507160186767578}
+2024-07-21 13:10:06,704 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 13:10:06', 'duration': 0.5743482112884521}
+2024-07-21 13:15:00,035 , INFO , Starting FCV-MLAPI....
+2024-07-21 13:15:37,193 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 13:15:37', 'duration': 0.0007467269897460938}
+2024-07-21 13:15:37,425 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 13:15:37', 'duration': 0.028018474578857422}
+2024-07-21 13:15:46,244 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 13:15:46', 'duration': 0.41318702697753906}
+2024-07-21 13:43:52,940 , INFO , Starting FCV-MLAPI....
+2024-07-21 13:43:58,493 , INFO , Starting FCV-MLAPI....
+2024-07-21 13:51:48,756 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 13:51:48', 'duration': 0.0012638568878173828}
+2024-07-21 13:51:49,056 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 13:51:49', 'duration': 0.05971026420593262}
+2024-07-21 13:52:02,254 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 13:52:02', 'duration': 0.39375948905944824}
+2024-07-21 13:56:00,523 , INFO , Starting FCV-MLAPI....
+2024-07-21 14:42:11,387 , INFO , Starting FCV-MLAPI....
+2024-07-21 14:44:55,328 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 14:44:55', 'duration': 0.0007441043853759766}
+2024-07-21 14:44:55,726 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 14:44:55', 'duration': 0.03217005729675293}
+2024-07-21 14:45:04,598 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 14:45:04', 'duration': 0.5023350715637207}
+2024-07-21 14:45:56,002 , INFO , Starting FCV-MLAPI....
+2024-07-21 14:46:05,484 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 14:46:05', 'duration': 0.5268063545227051}
+2024-07-21 14:49:48,704 , INFO , Starting FCV-MLAPI....
+2024-07-21 14:50:37,822 , INFO , Starting FCV-MLAPI....
+2024-07-21 14:52:41,286 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 14:52:41', 'duration': 0.0012617111206054688}
+2024-07-21 14:52:41,524 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 14:52:41', 'duration': 0.017489910125732422}
+2024-07-21 14:52:49,007 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 14:52:49', 'duration': 0.36636996269226074}
+2024-07-21 14:53:12,636 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 14:53:12', 'duration': 0.32228589057922363}
+2024-07-21 14:53:27,814 , INFO , Starting FCV-MLAPI....
+2024-07-21 14:53:33,990 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 14:53:33', 'duration': 0.001238107681274414}
+2024-07-21 14:53:34,223 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 14:53:34', 'duration': 0.02190375328063965}
+2024-07-21 14:53:41,957 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 14:53:41', 'duration': 0.38263916969299316}
+2024-07-21 14:59:08,480 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:08:09,205 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:08:39,182 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 15:08:39', 'duration': 0.0013077259063720703}
+2024-07-21 15:08:39,486 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 15:08:39', 'duration': 0.062372684478759766}
+2024-07-21 15:08:47,862 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 15:08:47', 'duration': 0.4793388843536377}
+2024-07-21 15:09:08,349 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 15:09:08', 'duration': 0.06465864181518555}
+2024-07-21 15:12:25,623 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:12:31,145 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:13:43,571 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:14:15,304 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:14:24,685 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:14:54,041 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:15:11,227 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:16:40,647 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:17:09,879 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:17:30,674 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:17:40,498 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:17:56,795 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:18:24,788 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:18:54,958 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:19:00,877 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:19:39,589 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:20:01,909 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:20:22,862 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:20:34,945 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:20:49,431 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:21:10,722 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:21:19,192 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:21:29,393 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:21:52,354 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:22:03,752 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:22:15,463 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:22:25,749 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:23:01,977 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:23:37,255 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:24:02,562 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:25:53,367 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:26:02,733 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:26:09,273 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:26:38,637 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:27:03,759 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:27:12,465 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:27:29,338 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:28:05,578 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:42:38,277 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:43:30,350 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 15:43:30', 'duration': 0.0006215572357177734}
+2024-07-21 15:43:30,598 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 15:43:30', 'duration': 0.0280454158782959}
+2024-07-21 15:43:40,994 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 15:43:40', 'duration': 0.5602438449859619}
+2024-07-21 15:43:53,373 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 15:43:53', 'duration': 1.2808279991149902}
+2024-07-21 15:44:59,313 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 15:44:59', 'duration': 0.814763069152832}
+2024-07-21 15:45:01,122 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 15:45:01', 'duration': 0.842280387878418}
+2024-07-21 15:47:03,357 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:47:07,309 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 15:47:07', 'duration': 0.24726200103759766}
+2024-07-21 15:47:09,263 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 15:47:09', 'duration': 0.00041604042053222656}
+2024-07-21 15:47:09,547 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 15:47:09', 'duration': 0.013511896133422852}
+2024-07-21 15:47:18,539 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 15:47:18', 'duration': 0.4028651714324951}
+2024-07-21 15:47:27,210 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 15:47:27', 'duration': 0.2857856750488281}
+2024-07-21 15:51:06,635 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 15:51:06', 'duration': 0.0005652904510498047}
+2024-07-21 15:51:06,856 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 15:51:06', 'duration': 0.0008842945098876953}
+2024-07-21 15:51:16,814 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 15:51:16', 'duration': 0.31549978256225586}
+2024-07-21 15:51:25,473 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 15:51:25', 'duration': 0.020711898803710938}
+2024-07-21 15:52:20,950 , INFO , Starting FCV-MLAPI....
+2024-07-21 15:52:26,232 , INFO , {'url': '/', 'method': 'GET', 'date': '21/07/2024 15:52:26', 'duration': 0.0012183189392089844}
+2024-07-21 15:52:34,737 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 15:52:34', 'duration': 0.0006160736083984375}
+2024-07-21 15:52:35,111 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 15:52:35', 'duration': 0.011847972869873047}
+2024-07-21 15:52:45,237 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 15:52:45', 'duration': 0.3766632080078125}
+2024-07-21 15:52:56,805 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 15:52:56', 'duration': 0.0417327880859375}
+2024-07-21 16:03:21,055 , INFO , Starting FCV-MLAPI....
+2024-07-21 16:04:03,487 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 16:04:03', 'duration': 0.0011010169982910156}
+2024-07-21 16:04:03,728 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 16:04:03', 'duration': 0.03870081901550293}
+2024-07-21 16:04:11,436 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 16:04:11', 'duration': 0.3661348819732666}
+2024-07-21 16:04:22,433 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:04:22', 'duration': 0.023236513137817383}
+2024-07-21 16:04:38,753 , INFO , Starting FCV-MLAPI....
+2024-07-21 16:04:47,769 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 16:04:47', 'duration': 0.0009362697601318359}
+2024-07-21 16:04:47,976 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 16:04:47', 'duration': 0.008370637893676758}
+2024-07-21 16:04:55,653 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 16:04:55', 'duration': 0.4110755920410156}
+2024-07-21 16:05:12,848 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:05:12', 'duration': 0.07607746124267578}
+2024-07-21 16:05:18,260 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:05:18', 'duration': 0.027039051055908203}
+2024-07-21 16:06:05,728 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 16:06:05', 'duration': 0.0004048347473144531}
+2024-07-21 16:06:05,931 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 16:06:05', 'duration': 0.0005803108215332031}
+2024-07-21 16:06:33,000 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 16:06:33', 'duration': 0.3650674819946289}
+2024-07-21 16:06:56,357 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:06:56', 'duration': 0.022595882415771484}
+2024-07-21 16:18:36,818 , INFO , Starting FCV-MLAPI....
+2024-07-21 16:18:41,315 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 16:18:41', 'duration': 0.0008704662322998047}
+2024-07-21 16:18:41,552 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 16:18:41', 'duration': 0.008911371231079102}
+2024-07-21 16:18:53,341 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 16:18:53', 'duration': 0.3858034610748291}
+2024-07-21 16:19:03,424 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:19:03', 'duration': 0.028364896774291992}
+2024-07-21 16:20:05,626 , INFO , Starting FCV-MLAPI....
+2024-07-21 16:21:10,187 , INFO , Starting FCV-MLAPI....
+2024-07-21 16:23:19,604 , INFO , Starting FCV-MLAPI....
+2024-07-21 16:23:21,836 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 16:23:21', 'duration': 0.0009791851043701172}
+2024-07-21 16:23:22,053 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 16:23:22', 'duration': 0.010797977447509766}
+2024-07-21 16:23:32,473 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 16:23:32', 'duration': 0.4199960231781006}
+2024-07-21 16:23:55,305 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:23:55', 'duration': 0.38728976249694824}
+2024-07-21 16:25:20,916 , INFO , Starting FCV-MLAPI....
+2024-07-21 16:25:24,178 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:25:24', 'duration': 0.0209197998046875}
+2024-07-21 16:25:30,438 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:25:30', 'duration': 0.0227510929107666}
+2024-07-21 16:25:38,400 , INFO , Starting FCV-MLAPI....
+2024-07-21 16:25:42,341 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:25:42', 'duration': 0.02351093292236328}
+2024-07-21 16:26:09,480 , INFO , Starting FCV-MLAPI....
+2024-07-21 16:31:54,206 , INFO , Starting FCV-MLAPI....
+2024-07-21 16:31:56,711 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 16:31:56', 'duration': 0.0009305477142333984}
+2024-07-21 16:31:56,922 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 16:31:56', 'duration': 0.012505292892456055}
+2024-07-21 16:32:13,078 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 16:32:13', 'duration': 0.4013187885284424}
+2024-07-21 16:32:29,417 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:32:29', 'duration': 0.811668872833252}
+2024-07-21 16:32:51,438 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:32:51', 'duration': 0.7910172939300537}
+2024-07-21 16:32:52,817 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:32:52', 'duration': 0.8166069984436035}
+2024-07-21 16:32:53,511 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:32:53', 'duration': 0.23809456825256348}
+2024-07-21 16:33:19,593 , INFO , Starting FCV-MLAPI....
+2024-07-21 16:33:21,862 , INFO , {'url': '/docs', 'method': 'GET', 'date': '21/07/2024 16:33:21', 'duration': 0.00066375732421875}
+2024-07-21 16:33:22,105 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '21/07/2024 16:33:22', 'duration': 0.011452674865722656}
+2024-07-21 16:33:33,927 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '21/07/2024 16:33:33', 'duration': 0.35570478439331055}
+2024-07-21 16:33:41,153 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:33:41', 'duration': 0.026582717895507812}
+2024-07-21 16:34:00,377 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:34:00', 'duration': 0.021596193313598633}
+2024-07-21 16:34:00,548 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:34:00', 'duration': 0.06447005271911621}
+2024-07-21 16:34:00,716 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:34:00', 'duration': 0.0696096420288086}
+2024-07-21 16:34:01,689 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:34:01', 'duration': 0.06065511703491211}
+2024-07-21 16:34:23,552 , INFO , Starting FCV-MLAPI....
+2024-07-21 16:34:28,940 , INFO , {'url': '/predict', 'method': 'POST', 'date': '21/07/2024 16:34:28', 'duration': 0.027408123016357422}
+2024-07-25 14:59:35,539 , INFO , Starting FCV-MLAPI....
+2024-07-25 14:59:35,973 , INFO , {'url': '/docs', 'method': 'GET', 'date': '25/07/2024 14:59:35', 'duration': 0.0006730556488037109}
+2024-07-25 14:59:36,408 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '25/07/2024 14:59:36', 'duration': 0.04152250289916992}
+2024-07-25 15:00:03,211 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:00:03', 'duration': 0.005509376525878906}
+2024-07-25 15:00:33,133 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '25/07/2024 15:00:33', 'duration': 0.4614133834838867}
+2024-07-25 15:00:37,241 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:00:37', 'duration': 0.12468886375427246}
+2024-07-25 15:00:40,541 , INFO , {'url': '/docs', 'method': 'GET', 'date': '25/07/2024 15:00:40', 'duration': 0.0002830028533935547}
+2024-07-25 15:00:40,762 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '25/07/2024 15:00:40', 'duration': 0.0008652210235595703}
+2024-07-25 15:00:47,563 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '25/07/2024 15:00:47', 'duration': 0.32460975646972656}
+2024-07-25 15:00:54,900 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:00:54', 'duration': 0.023641586303710938}
+2024-07-25 15:12:20,121 , INFO , Starting FCV-MLAPI....
+2024-07-25 15:12:37,675 , INFO , {'url': '/docs', 'method': 'GET', 'date': '25/07/2024 15:12:37', 'duration': 0.0005838871002197266}
+2024-07-25 15:12:38,236 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '25/07/2024 15:12:38', 'duration': 0.015536308288574219}
+2024-07-25 15:12:49,947 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '25/07/2024 15:12:49', 'duration': 0.3963751792907715}
+2024-07-25 15:13:02,687 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:13:02', 'duration': 0.016922712326049805}
+2024-07-25 15:13:10,426 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:13:10', 'duration': 0.016854286193847656}
+2024-07-25 15:13:15,765 , INFO , {'url': '/docs', 'method': 'GET', 'date': '25/07/2024 15:13:15', 'duration': 0.0006148815155029297}
+2024-07-25 15:13:15,947 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '25/07/2024 15:13:15', 'duration': 0.0005826950073242188}
+2024-07-25 15:13:22,141 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '25/07/2024 15:13:22', 'duration': 0.3589208126068115}
+2024-07-25 15:13:31,030 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:13:31', 'duration': 0.011608600616455078}
+2024-07-25 15:15:18,685 , INFO , {'url': '/docs', 'method': 'GET', 'date': '25/07/2024 15:15:18', 'duration': 0.000560760498046875}
+2024-07-25 15:15:18,830 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '25/07/2024 15:15:18', 'duration': 0.0005376338958740234}
+2024-07-25 15:15:29,949 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '25/07/2024 15:15:29', 'duration': 0.3502383232116699}
+2024-07-25 15:15:38,912 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:15:38', 'duration': 1.0581910610198975}
+2024-07-25 15:15:43,289 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:15:43', 'duration': 0.7361674308776855}
+2024-07-25 15:18:47,786 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:18:47', 'duration': 1.107158899307251}
+2024-07-25 15:18:50,693 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:18:50', 'duration': 0.2394726276397705}
+2024-07-25 15:18:51,701 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:18:51', 'duration': 0.3222386837005615}
+2024-07-25 15:18:52,684 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:18:52', 'duration': 0.420778751373291}
+2024-07-25 15:20:20,835 , INFO , {'url': '/predict', 'method': 'POST', 'date': '25/07/2024 15:20:20', 'duration': 0.018872976303100586}
+2024-08-08 21:39:20,948 , INFO , Starting FCV-MLAPI....
+2024-08-08 21:40:42,668 , INFO , {'url': '/docs', 'method': 'GET', 'date': '08/08/2024 21:40:42', 'duration': 0.001171112060546875}
+2024-08-08 21:40:42,957 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '08/08/2024 21:40:42', 'duration': 0.05215144157409668}
+2024-08-08 21:44:31,551 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 21:44:31', 'duration': 0.4768080711364746}
+2024-08-08 21:46:59,015 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 21:46:59', 'duration': 0.36284637451171875}
+2024-08-08 21:47:32,097 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 21:47:32', 'duration': 0.35022687911987305}
+2024-08-08 21:47:32,173 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 21:47:32', 'duration': 0.06485295295715332}
+2024-08-08 21:47:40,116 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 21:47:40', 'duration': 0.35062646865844727}
+2024-08-08 21:47:40,140 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 21:47:40', 'duration': 0.013011455535888672}
+2024-08-08 21:48:12,172 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 21:48:12', 'duration': 0.3502786159515381}
+2024-08-08 21:48:12,203 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 21:48:12', 'duration': 0.017269372940063477}
+2024-08-08 21:48:12,210 , INFO , {'url': '/', 'method': 'GET', 'date': '08/08/2024 21:48:12', 'duration': 0.0014760494232177734}
+2024-08-08 21:48:40,848 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 21:48:40', 'duration': 0.35053277015686035}
+2024-08-08 21:48:40,913 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 21:48:40', 'duration': 0.002850055694580078}
+2024-08-08 21:48:40,927 , INFO , {'url': '/', 'method': 'GET', 'date': '08/08/2024 21:48:40', 'duration': 0.001554250717163086}
+2024-08-08 21:50:20,860 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 21:50:20', 'duration': 0.36270689964294434}
+2024-08-08 21:50:20,904 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 21:50:20', 'duration': 0.019957304000854492}
+2024-08-08 21:50:20,909 , INFO , {'url': '/', 'method': 'GET', 'date': '08/08/2024 21:50:20', 'duration': 0.0010526180267333984}
+2024-08-08 21:53:43,672 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 21:53:43', 'duration': 0.35204100608825684}
+2024-08-08 21:53:45,995 , INFO , {'url': '/', 'method': 'GET', 'date': '08/08/2024 21:53:45', 'duration': 0.0010457038879394531}
+2024-08-08 21:59:59,933 , INFO , Starting FCV-MLAPI....
+2024-08-08 22:00:16,738 , INFO , {'url': '/docs', 'method': 'GET', 'date': '08/08/2024 22:00:16', 'duration': 0.0006449222564697266}
+2024-08-08 22:00:16,969 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '08/08/2024 22:00:16', 'duration': 0.06325840950012207}
+2024-08-08 22:00:17,578 , INFO , {'url': '/docs', 'method': 'GET', 'date': '08/08/2024 22:00:17', 'duration': 0.0004875659942626953}
+2024-08-08 22:00:17,703 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '08/08/2024 22:00:17', 'duration': 0.0009512901306152344}
+2024-08-08 22:00:18,151 , INFO , {'url': '/docs', 'method': 'GET', 'date': '08/08/2024 22:00:18', 'duration': 0.00040221214294433594}
+2024-08-08 22:00:18,228 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '08/08/2024 22:00:18', 'duration': 0.0005750656127929688}
+2024-08-08 22:00:34,245 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 22:00:34', 'duration': 0.4119884967803955}
+2024-08-08 22:00:34,287 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 22:00:34', 'duration': 0.026283979415893555}
+2024-08-08 22:00:34,293 , INFO , {'url': '/', 'method': 'GET', 'date': '08/08/2024 22:00:34', 'duration': 0.001352071762084961}
+2024-08-08 22:04:34,062 , INFO , Starting FCV-MLAPI....
+2024-08-08 22:05:27,168 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 22:05:27', 'duration': 0.4068331718444824}
+2024-08-08 22:05:27,252 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 22:05:27', 'duration': 0.07061433792114258}
+2024-08-08 22:05:27,259 , INFO , {'url': '/', 'method': 'GET', 'date': '08/08/2024 22:05:27', 'duration': 0.0012056827545166016}
+2024-08-08 22:18:02,115 , INFO , Starting FCV-MLAPI....
+2024-08-08 22:18:19,310 , INFO , {'url': '/docs', 'method': 'GET', 'date': '08/08/2024 22:18:19', 'duration': 0.0008206367492675781}
+2024-08-08 22:18:19,579 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '08/08/2024 22:18:19', 'duration': 0.08803296089172363}
+2024-08-08 22:18:31,145 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 22:18:31', 'duration': 0.4065990447998047}
+2024-08-08 22:18:31,202 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 22:18:31', 'duration': 0.04597067832946777}
+2024-08-08 22:18:31,209 , INFO , {'url': '/', 'method': 'GET', 'date': '08/08/2024 22:18:31', 'duration': 0.0012133121490478516}
+2024-08-08 23:28:22,102 , INFO , Starting FCV-MLAPI....
+2024-08-08 23:28:31,793 , INFO , {'url': '/docs', 'method': 'GET', 'date': '08/08/2024 23:28:31', 'duration': 0.0010447502136230469}
+2024-08-08 23:28:32,015 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '08/08/2024 23:28:32', 'duration': 0.0913543701171875}
+2024-08-08 23:28:45,108 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 23:28:45', 'duration': 0.407853364944458}
+2024-08-08 23:28:45,175 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 23:28:45', 'duration': 0.056220293045043945}
+2024-08-08 23:28:45,181 , INFO , {'url': '/', 'method': 'GET', 'date': '08/08/2024 23:28:45', 'duration': 0.0011348724365234375}
+2024-08-08 23:35:35,556 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 23:35:35', 'duration': 0.3543884754180908}
+2024-08-08 23:35:35,586 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 23:35:35', 'duration': 0.014364242553710938}
+2024-08-08 23:35:35,593 , INFO , {'url': '/', 'method': 'GET', 'date': '08/08/2024 23:35:35', 'duration': 0.0018110275268554688}
+2024-08-08 23:38:32,772 , INFO , Starting FCV-MLAPI....
+2024-08-08 23:38:38,807 , INFO , {'url': '/docs', 'method': 'GET', 'date': '08/08/2024 23:38:38', 'duration': 0.0007340908050537109}
+2024-08-08 23:38:39,075 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '08/08/2024 23:38:39', 'duration': 0.09028077125549316}
+2024-08-08 23:38:46,585 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 23:38:46', 'duration': 0.4049496650695801}
+2024-08-08 23:38:46,625 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 23:38:46', 'duration': 0.0287320613861084}
+2024-08-08 23:38:46,638 , INFO , {'url': '/', 'method': 'GET', 'date': '08/08/2024 23:38:46', 'duration': 0.001195669174194336}
+2024-08-08 23:46:27,547 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 23:46:27', 'duration': 0.37690067291259766}
+2024-08-08 23:46:27,584 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 23:46:27', 'duration': 0.020415544509887695}
+2024-08-08 23:46:27,600 , INFO , {'url': '/', 'method': 'GET', 'date': '08/08/2024 23:46:27', 'duration': 0.0018672943115234375}
+2024-08-08 23:47:27,644 , INFO , Starting FCV-MLAPI....
+2024-08-08 23:47:44,537 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '08/08/2024 23:47:44', 'duration': 0.4062049388885498}
+2024-08-08 23:47:44,633 , INFO , {'url': '/predict', 'method': 'POST', 'date': '08/08/2024 23:47:44', 'duration': 0.08411598205566406}
+2024-08-08 23:47:44,638 , INFO , {'url': '/', 'method': 'GET', 'date': '08/08/2024 23:47:44', 'duration': 0.0011794567108154297}
+2024-08-09 00:02:08,150 , INFO , Starting FCV-MLAPI....
+2024-08-09 00:02:35,262 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '09/08/2024 00:02:35', 'duration': 0.4042947292327881}
+2024-08-09 00:02:35,310 , INFO , {'url': '/predict', 'method': 'POST', 'date': '09/08/2024 00:02:35', 'duration': 0.03724789619445801}
+2024-08-09 00:02:35,363 , INFO , {'url': '/', 'method': 'GET', 'date': '09/08/2024 00:02:35', 'duration': 0.03269600868225098}
+2024-08-09 00:11:06,467 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '09/08/2024 00:11:06', 'duration': 0.35561203956604004}
+2024-08-09 00:11:06,494 , INFO , {'url': '/predict', 'method': 'POST', 'date': '09/08/2024 00:11:06', 'duration': 0.011267423629760742}
+2024-08-09 00:11:06,499 , INFO , {'url': '/', 'method': 'GET', 'date': '09/08/2024 00:11:06', 'duration': 0.0012462139129638672}
+2024-08-13 23:35:13,104 , INFO , Starting FCV-MLAPI....
+2024-08-13 23:38:04,136 , INFO , {'url': '/docs', 'method': 'GET', 'date': '13/08/2024 23:38:04', 'duration': 0.0006368160247802734}
+2024-08-13 23:38:04,716 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '13/08/2024 23:38:04', 'duration': 0.18912458419799805}
+2024-08-13 23:38:43,742 , INFO , {'url': '/docs', 'method': 'GET', 'date': '13/08/2024 23:38:43', 'duration': 0.0004112720489501953}
+2024-08-13 23:38:43,863 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '13/08/2024 23:38:43', 'duration': 0.0006074905395507812}
+2024-08-13 23:39:04,495 , INFO , {'url': '/home', 'method': 'GET', 'date': '13/08/2024 23:39:04', 'duration': 0.0006730556488037109}
+2024-08-13 23:42:41,405 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '13/08/2024 23:42:41', 'duration': 0.4854414463043213}
+2024-08-13 23:42:41,414 , INFO , {'url': '/home', 'method': 'GET', 'date': '13/08/2024 23:42:41', 'duration': 0.00044727325439453125}
+2024-08-13 23:42:41,522 , INFO , {'url': '/predict', 'method': 'POST', 'date': '13/08/2024 23:42:41', 'duration': 0.0936744213104248}
+2024-08-13 23:42:41,532 , INFO , {'url': '/', 'method': 'GET', 'date': '13/08/2024 23:42:41', 'duration': 0.002957582473754883}
+2024-08-13 23:44:06,635 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '13/08/2024 23:44:06', 'duration': 0.26306915283203125}
+2024-08-13 23:44:06,644 , INFO , {'url': '/home', 'method': 'GET', 'date': '13/08/2024 23:44:06', 'duration': 0.0004353523254394531}
+2024-08-13 23:44:08,640 , INFO , {'url': '/', 'method': 'GET', 'date': '13/08/2024 23:44:08', 'duration': 0.0018405914306640625}
+2024-08-13 23:49:41,684 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '13/08/2024 23:49:41', 'duration': 0.31911778450012207}
+2024-08-13 23:49:41,692 , INFO , {'url': '/home', 'method': 'GET', 'date': '13/08/2024 23:49:41', 'duration': 0.00044417381286621094}
+2024-08-13 23:49:41,808 , INFO , {'url': '/', 'method': 'GET', 'date': '13/08/2024 23:49:41', 'duration': 0.001134634017944336}
+2024-08-13 23:49:42,101 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '13/08/2024 23:49:42', 'duration': 0.2765026092529297}
+2024-08-14 00:06:27,338 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:06:27', 'duration': 0.256882905960083}
+2024-08-14 00:06:27,347 , INFO , {'url': '/home', 'method': 'GET', 'date': '14/08/2024 00:06:27', 'duration': 0.0003800392150878906}
+2024-08-14 00:06:27,460 , INFO , {'url': '/', 'method': 'GET', 'date': '14/08/2024 00:06:27', 'duration': 0.0013117790222167969}
+2024-08-14 00:28:12,775 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:28:12', 'duration': 0.2662181854248047}
+2024-08-14 00:28:12,784 , INFO , {'url': '/home', 'method': 'GET', 'date': '14/08/2024 00:28:12', 'duration': 0.0003387928009033203}
+2024-08-14 00:28:12,895 , INFO , {'url': '/', 'method': 'GET', 'date': '14/08/2024 00:28:12', 'duration': 0.0008873939514160156}
+2024-08-14 00:28:13,178 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:28:13', 'duration': 0.264862060546875}
+2024-08-14 00:28:51,220 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:28:51', 'duration': 0.266254186630249}
+2024-08-14 00:28:51,228 , INFO , {'url': '/home', 'method': 'GET', 'date': '14/08/2024 00:28:51', 'duration': 0.0004286766052246094}
+2024-08-14 00:28:51,336 , INFO , {'url': '/', 'method': 'GET', 'date': '14/08/2024 00:28:51', 'duration': 0.0007984638214111328}
+2024-08-14 00:28:51,621 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:28:51', 'duration': 0.2674393653869629}
+2024-08-14 00:29:49,580 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:29:49', 'duration': 0.2602241039276123}
+2024-08-14 00:29:49,589 , INFO , {'url': '/home', 'method': 'GET', 'date': '14/08/2024 00:29:49', 'duration': 0.0004112720489501953}
+2024-08-14 00:29:49,702 , INFO , {'url': '/', 'method': 'GET', 'date': '14/08/2024 00:29:49', 'duration': 0.0010902881622314453}
+2024-08-14 00:29:49,985 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:29:49', 'duration': 0.2687845230102539}
+2024-08-14 00:29:50,293 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:29:50', 'duration': 0.2687673568725586}
+2024-08-14 00:30:39,048 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:30:39', 'duration': 0.25995349884033203}
+2024-08-14 00:30:39,058 , INFO , {'url': '/home', 'method': 'GET', 'date': '14/08/2024 00:30:39', 'duration': 0.0005266666412353516}
+2024-08-14 00:30:39,162 , INFO , {'url': '/', 'method': 'GET', 'date': '14/08/2024 00:30:39', 'duration': 0.0009558200836181641}
+2024-08-14 00:30:39,441 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:30:39', 'duration': 0.2625722885131836}
+2024-08-14 00:30:57,753 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:30:57', 'duration': 0.2677600383758545}
+2024-08-14 00:30:57,762 , INFO , {'url': '/home', 'method': 'GET', 'date': '14/08/2024 00:30:57', 'duration': 0.0003421306610107422}
+2024-08-14 00:30:57,863 , INFO , {'url': '/', 'method': 'GET', 'date': '14/08/2024 00:30:57', 'duration': 0.0008127689361572266}
+2024-08-14 00:30:58,152 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:30:58', 'duration': 0.27137207984924316}
+2024-08-14 00:31:22,941 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:31:22', 'duration': 0.2723112106323242}
+2024-08-14 00:31:22,950 , INFO , {'url': '/home', 'method': 'GET', 'date': '14/08/2024 00:31:22', 'duration': 0.000537872314453125}
+2024-08-14 00:31:23,052 , INFO , {'url': '/', 'method': 'GET', 'date': '14/08/2024 00:31:23', 'duration': 0.0007734298706054688}
+2024-08-14 00:34:32,009 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:34:32', 'duration': 0.2635989189147949}
+2024-08-14 00:34:32,018 , INFO , {'url': '/home', 'method': 'GET', 'date': '14/08/2024 00:34:32', 'duration': 0.0005362033843994141}
+2024-08-14 00:34:32,123 , INFO , {'url': '/', 'method': 'GET', 'date': '14/08/2024 00:34:32', 'duration': 0.0008869171142578125}
+2024-08-14 00:34:36,505 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:34:36', 'duration': 0.27092838287353516}
+2024-08-14 00:34:36,515 , INFO , {'url': '/home', 'method': 'GET', 'date': '14/08/2024 00:34:36', 'duration': 0.00033092498779296875}
+2024-08-14 00:34:36,623 , INFO , {'url': '/', 'method': 'GET', 'date': '14/08/2024 00:34:36', 'duration': 0.0008494853973388672}
+2024-08-14 00:34:36,908 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:34:36', 'duration': 0.2673647403717041}
+2024-08-14 00:35:16,570 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:35:16', 'duration': 0.2626993656158447}
+2024-08-14 00:35:16,580 , INFO , {'url': '/home', 'method': 'GET', 'date': '14/08/2024 00:35:16', 'duration': 0.0004699230194091797}
+2024-08-14 00:35:16,687 , INFO , {'url': '/', 'method': 'GET', 'date': '14/08/2024 00:35:16', 'duration': 0.0013625621795654297}
+2024-08-14 00:35:16,994 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:35:16', 'duration': 0.2897965908050537}
+2024-08-14 00:35:36,558 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:35:36', 'duration': 0.2890505790710449}
+2024-08-14 00:35:36,569 , INFO , {'url': '/home', 'method': 'GET', 'date': '14/08/2024 00:35:36', 'duration': 0.0003514289855957031}
+2024-08-14 00:35:36,675 , INFO , {'url': '/', 'method': 'GET', 'date': '14/08/2024 00:35:36', 'duration': 0.0008287429809570312}
+2024-08-14 00:35:36,960 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:35:36', 'duration': 0.2670886516571045}
+2024-08-14 00:35:52,589 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:35:52', 'duration': 0.27300453186035156}
+2024-08-14 00:35:52,602 , INFO , {'url': '/home', 'method': 'GET', 'date': '14/08/2024 00:35:52', 'duration': 0.0005173683166503906}
+2024-08-14 00:35:52,735 , INFO , {'url': '/', 'method': 'GET', 'date': '14/08/2024 00:35:52', 'duration': 0.0008618831634521484}
+2024-08-14 00:35:53,032 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '14/08/2024 00:35:53', 'duration': 0.2845604419708252}
+2024-09-02 19:46:22,322 , INFO , Starting FCV-MLAPI....
+2024-09-02 19:47:03,130 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 19:47:03', 'duration': 0.0026578903198242188}
+2024-09-02 19:47:37,086 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 19:47:37', 'duration': 0.00042891502380371094}
+2024-09-02 19:53:21,371 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 19:53:21', 'duration': 0.321516752243042}
+2024-09-02 19:53:21,382 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 19:53:21', 'duration': 0.00036907196044921875}
+2024-09-02 19:53:21,403 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 19:53:21', 'duration': 0.010657310485839844}
+2024-09-02 19:53:21,410 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 19:53:21', 'duration': 0.001707315444946289}
+2024-09-02 19:53:44,661 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 19:53:44', 'duration': 0.2605776786804199}
+2024-09-02 19:53:44,671 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 19:53:44', 'duration': 0.00045680999755859375}
+2024-09-02 19:53:44,721 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 19:53:44', 'duration': 0.0027816295623779297}
+2024-09-02 19:53:44,735 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 19:53:44', 'duration': 0.0017137527465820312}
+2024-09-02 19:55:48,342 , INFO , Starting FCV-MLAPI....
+2024-09-02 19:56:17,163 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 19:56:17', 'duration': 0.3194408416748047}
+2024-09-02 19:56:17,172 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 19:56:17', 'duration': 0.00042176246643066406}
+2024-09-02 19:56:17,221 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 19:56:17', 'duration': 0.0034401416778564453}
+2024-09-02 19:56:17,236 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 19:56:17', 'duration': 0.0021932125091552734}
+2024-09-02 19:59:33,521 , INFO , Starting FCV-MLAPI....
+2024-09-02 19:59:42,375 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 19:59:42', 'duration': 0.004384279251098633}
+2024-09-02 19:59:51,790 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 19:59:51', 'duration': 0.3282618522644043}
+2024-09-02 19:59:51,800 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 19:59:51', 'duration': 0.0008921623229980469}
+2024-09-02 19:59:51,850 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 19:59:51', 'duration': 0.0028493404388427734}
+2024-09-02 19:59:51,863 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 19:59:51', 'duration': 0.0016314983367919922}
+2024-09-02 20:01:57,331 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:01:57', 'duration': 0.2689201831817627}
+2024-09-02 20:01:57,339 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:01:57', 'duration': 0.0005047321319580078}
+2024-09-02 20:01:58,841 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:01:58', 'duration': 0.001687765121459961}
+2024-09-02 20:04:19,345 , INFO , Starting FCV-MLAPI....
+2024-09-02 20:04:31,328 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:04:31', 'duration': 0.31572651863098145}
+2024-09-02 20:04:31,337 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:04:31', 'duration': 0.0004189014434814453}
+2024-09-02 20:04:31,450 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:04:31', 'duration': 0.001314401626586914}
+2024-09-02 20:05:07,978 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:05:07', 'duration': 0.2783067226409912}
+2024-09-02 20:05:07,988 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:05:07', 'duration': 0.0005640983581542969}
+2024-09-02 20:05:08,052 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:05:08', 'duration': 0.0038890838623046875}
+2024-09-02 20:05:08,067 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:05:08', 'duration': 0.0017919540405273438}
+2024-09-02 20:08:17,681 , INFO , Starting FCV-MLAPI....
+2024-09-02 20:08:36,723 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:08:36', 'duration': 0.0016222000122070312}
+2024-09-02 20:08:43,745 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:08:43', 'duration': 0.32642626762390137}
+2024-09-02 20:08:43,755 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:08:43', 'duration': 0.0005254745483398438}
+2024-09-02 20:08:43,803 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:08:43', 'duration': 0.0027637481689453125}
+2024-09-02 20:08:43,818 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:08:43', 'duration': 0.0017588138580322266}
+2024-09-02 20:08:55,087 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:08:55', 'duration': 0.2723057270050049}
+2024-09-02 20:08:55,096 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:08:55', 'duration': 0.0004279613494873047}
+2024-09-02 20:08:55,156 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:08:55', 'duration': 0.04723072052001953}
+2024-09-02 20:08:55,166 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:08:55', 'duration': 0.002770662307739258}
+2024-09-02 20:17:01,561 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:17:01', 'duration': 0.2619049549102783}
+2024-09-02 20:17:01,569 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:17:01', 'duration': 0.0003376007080078125}
+2024-09-02 20:17:01,592 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:17:01', 'duration': 0.010776281356811523}
+2024-09-02 20:17:01,597 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:17:01', 'duration': 0.0008556842803955078}
+2024-09-02 20:17:01,911 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:17:01', 'duration': 0.2957885265350342}
+2024-09-02 20:17:25,487 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:17:25', 'duration': 0.26473069190979004}
+2024-09-02 20:17:25,496 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:17:25', 'duration': 0.0003859996795654297}
+2024-09-02 20:17:25,519 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:17:25', 'duration': 0.010676383972167969}
+2024-09-02 20:17:25,525 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:17:25', 'duration': 0.0010461807250976562}
+2024-09-02 20:17:25,804 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:17:25', 'duration': 0.259768009185791}
+2024-09-02 20:23:52,954 , INFO , {'url': '/docs', 'method': 'GET', 'date': '02/09/2024 20:23:52', 'duration': 0.0003752708435058594}
+2024-09-02 20:23:53,463 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '02/09/2024 20:23:53', 'duration': 0.0669093132019043}
+2024-09-02 20:25:49,849 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:25:49', 'duration': 0.27462053298950195}
+2024-09-02 20:25:49,858 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:25:49', 'duration': 0.00032901763916015625}
+2024-09-02 20:25:49,881 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:25:49', 'duration': 0.01075601577758789}
+2024-09-02 20:25:49,887 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:25:49', 'duration': 0.0010309219360351562}
+2024-09-02 20:25:50,207 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:25:50', 'duration': 0.3020968437194824}
+2024-09-02 20:31:16,611 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:31:16', 'duration': 0.2811133861541748}
+2024-09-02 20:31:16,620 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:31:16', 'duration': 0.0003464221954345703}
+2024-09-02 20:31:16,645 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:31:16', 'duration': 0.013004779815673828}
+2024-09-02 20:31:16,651 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:31:16', 'duration': 0.0008499622344970703}
+2024-09-02 20:31:16,935 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:31:16', 'duration': 0.26859498023986816}
+2024-09-02 20:35:18,970 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:35:18', 'duration': 0.2723357677459717}
+2024-09-02 20:35:18,979 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:35:18', 'duration': 0.0005092620849609375}
+2024-09-02 20:35:19,001 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:35:19', 'duration': 0.010782718658447266}
+2024-09-02 20:35:19,007 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:35:19', 'duration': 0.0008499622344970703}
+2024-09-02 20:35:19,299 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:35:19', 'duration': 0.27330851554870605}
+2024-09-02 20:36:06,034 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:36:06', 'duration': 0.28854918479919434}
+2024-09-02 20:36:11,517 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:36:11', 'duration': 0.28211522102355957}
+2024-09-02 20:36:11,526 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:36:11', 'duration': 0.0003437995910644531}
+2024-09-02 20:36:11,548 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:36:11', 'duration': 0.010759592056274414}
+2024-09-02 20:36:11,553 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:36:11', 'duration': 0.0008218288421630859}
+2024-09-02 20:36:11,876 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:36:11', 'duration': 0.3054945468902588}
+2024-09-02 20:36:23,097 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:36:23', 'duration': 0.28487515449523926}
+2024-09-02 20:36:23,105 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:36:23', 'duration': 0.0004189014434814453}
+2024-09-02 20:36:23,127 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:36:23', 'duration': 0.009831666946411133}
+2024-09-02 20:36:23,133 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:36:23', 'duration': 0.0008418560028076172}
+2024-09-02 20:36:23,424 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:36:23', 'duration': 0.27120399475097656}
+2024-09-02 20:36:38,350 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:36:38', 'duration': 0.2898833751678467}
+2024-09-02 20:36:38,357 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:36:38', 'duration': 0.0004088878631591797}
+2024-09-02 20:36:38,382 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:36:38', 'duration': 0.01081705093383789}
+2024-09-02 20:36:38,390 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:36:38', 'duration': 0.0015370845794677734}
+2024-09-02 20:36:38,672 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:36:38', 'duration': 0.26572132110595703}
+2024-09-02 20:38:21,031 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:38:21', 'duration': 0.27700233459472656}
+2024-09-02 20:38:21,039 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:38:21', 'duration': 0.0004956722259521484}
+2024-09-02 20:38:21,068 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:38:21', 'duration': 0.01568913459777832}
+2024-09-02 20:38:21,073 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:38:21', 'duration': 0.0012729167938232422}
+2024-09-02 20:38:21,377 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:38:21', 'duration': 0.28466153144836426}
+2024-09-02 20:38:32,778 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:38:32', 'duration': 0.25969624519348145}
+2024-09-02 20:38:32,787 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:38:32', 'duration': 0.0003619194030761719}
+2024-09-02 20:38:32,812 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:38:32', 'duration': 0.011946439743041992}
+2024-09-02 20:38:32,817 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:38:32', 'duration': 0.0014162063598632812}
+2024-09-02 20:38:33,102 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:38:33', 'duration': 0.26646971702575684}
+2024-09-02 20:39:29,487 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:39:29', 'duration': 0.27787256240844727}
+2024-09-02 20:39:29,496 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:39:29', 'duration': 0.0004994869232177734}
+2024-09-02 20:39:29,522 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:39:29', 'duration': 0.012777566909790039}
+2024-09-02 20:39:29,527 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:39:29', 'duration': 0.0009729862213134766}
+2024-09-02 20:39:29,814 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:39:29', 'duration': 0.2721071243286133}
+2024-09-02 20:39:48,132 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:39:48', 'duration': 0.2544693946838379}
+2024-09-02 20:39:48,140 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:39:48', 'duration': 0.00036787986755371094}
+2024-09-02 20:39:48,165 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:39:48', 'duration': 0.010564327239990234}
+2024-09-02 20:39:48,171 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:39:48', 'duration': 0.0011129379272460938}
+2024-09-02 20:39:48,483 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:39:48', 'duration': 0.29285407066345215}
+2024-09-02 20:44:17,772 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:44:17', 'duration': 0.2949388027191162}
+2024-09-02 20:44:17,781 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:44:17', 'duration': 0.0004892349243164062}
+2024-09-02 20:44:17,803 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:44:17', 'duration': 0.012338876724243164}
+2024-09-02 20:44:17,808 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:44:17', 'duration': 0.0008499622344970703}
+2024-09-02 20:44:18,091 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:44:18', 'duration': 0.2666168212890625}
+2024-09-02 20:46:19,921 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:46:19', 'duration': 0.27089595794677734}
+2024-09-02 20:46:19,931 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:46:19', 'duration': 0.00033020973205566406}
+2024-09-02 20:46:19,954 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:46:19', 'duration': 0.01257181167602539}
+2024-09-02 20:46:19,959 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:46:19', 'duration': 0.0014569759368896484}
+2024-09-02 20:46:20,257 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:46:20', 'duration': 0.2788681983947754}
+2024-09-02 20:47:29,063 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:47:29', 'duration': 0.27471375465393066}
+2024-09-02 20:47:29,072 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:47:29', 'duration': 0.00034046173095703125}
+2024-09-02 20:47:29,094 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:47:29', 'duration': 0.012463808059692383}
+2024-09-02 20:47:29,101 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:47:29', 'duration': 0.0021505355834960938}
+2024-09-02 20:47:29,405 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:47:29', 'duration': 0.2907435894012451}
+2024-09-02 20:50:42,731 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:50:42', 'duration': 0.29154109954833984}
+2024-09-02 20:50:42,739 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:50:42', 'duration': 0.00040459632873535156}
+2024-09-02 20:50:42,770 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:50:42', 'duration': 0.017292022705078125}
+2024-09-02 20:50:42,775 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:50:42', 'duration': 0.0010607242584228516}
+2024-09-02 20:50:43,073 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:50:43', 'duration': 0.2805142402648926}
+2024-09-02 20:51:12,332 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:51:12', 'duration': 0.2720615863800049}
+2024-09-02 20:51:12,341 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:51:12', 'duration': 0.0004298686981201172}
+2024-09-02 20:51:12,381 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:51:12', 'duration': 0.02748727798461914}
+2024-09-02 20:51:12,395 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:51:12', 'duration': 0.0013153553009033203}
+2024-09-02 20:51:12,757 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:51:12', 'duration': 0.33260464668273926}
+2024-09-02 20:55:16,036 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:55:16', 'duration': 0.2672238349914551}
+2024-09-02 20:55:16,045 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:55:16', 'duration': 0.000362396240234375}
+2024-09-02 20:55:16,068 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:55:16', 'duration': 0.011670351028442383}
+2024-09-02 20:55:16,072 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:55:16', 'duration': 0.0008182525634765625}
+2024-09-02 20:55:16,350 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:55:16', 'duration': 0.2616708278656006}
+2024-09-02 20:55:31,997 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:55:31', 'duration': 0.2646653652191162}
+2024-09-02 20:55:32,006 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:55:32', 'duration': 0.0005168914794921875}
+2024-09-02 20:55:32,029 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:55:32', 'duration': 0.010821342468261719}
+2024-09-02 20:55:32,034 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:55:32', 'duration': 0.0008635520935058594}
+2024-09-02 20:55:32,333 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:55:32', 'duration': 0.2814517021179199}
+2024-09-02 20:56:13,319 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:56:13', 'duration': 0.26241636276245117}
+2024-09-02 20:56:13,327 , INFO , {'url': '/home', 'method': 'GET', 'date': '02/09/2024 20:56:13', 'duration': 0.00035953521728515625}
+2024-09-02 20:56:13,350 , INFO , {'url': '/predict', 'method': 'POST', 'date': '02/09/2024 20:56:13', 'duration': 0.012797117233276367}
+2024-09-02 20:56:13,355 , INFO , {'url': '/', 'method': 'GET', 'date': '02/09/2024 20:56:13', 'duration': 0.0011324882507324219}
+2024-09-02 20:56:13,654 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '02/09/2024 20:56:13', 'duration': 0.28041863441467285}
+2024-09-06 15:02:36,606 , INFO , Starting FCV-MLAPI....
+2024-09-06 15:02:57,166 , INFO , {'url': '/docs', 'method': 'GET', 'date': '06/09/2024 15:02:57', 'duration': 0.004366397857666016}
+2024-09-06 15:02:57,648 , INFO , {'url': '/openapi.json', 'method': 'GET', 'date': '06/09/2024 15:02:57', 'duration': 0.18701887130737305}
+2024-09-06 15:04:53,222 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:04:53', 'duration': 0.36055803298950195}
+2024-09-06 15:04:53,232 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:04:53', 'duration': 0.0005748271942138672}
+2024-09-06 15:04:53,520 , INFO , {'url': '/predict', 'method': 'POST', 'date': '06/09/2024 15:04:53', 'duration': 0.27543163299560547}
+2024-09-06 15:04:53,527 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:04:53', 'duration': 0.0012786388397216797}
+2024-09-06 15:04:53,817 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:04:53', 'duration': 0.2734863758087158}
+2024-09-06 15:05:25,504 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:05:25', 'duration': 0.2659945487976074}
+2024-09-06 15:05:25,513 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:05:25', 'duration': 0.0005221366882324219}
+2024-09-06 15:05:25,540 , INFO , {'url': '/predict', 'method': 'POST', 'date': '06/09/2024 15:05:25', 'duration': 0.013770341873168945}
+2024-09-06 15:05:25,547 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:05:25', 'duration': 0.0009887218475341797}
+2024-09-06 15:05:25,828 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:05:25', 'duration': 0.26453471183776855}
+2024-09-06 15:05:56,803 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:05:56', 'duration': 0.2538764476776123}
+2024-09-06 15:05:56,813 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:05:56', 'duration': 0.0005278587341308594}
+2024-09-06 15:05:56,836 , INFO , {'url': '/predict', 'method': 'POST', 'date': '06/09/2024 15:05:56', 'duration': 0.011600494384765625}
+2024-09-06 15:05:56,841 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:05:56', 'duration': 0.0009219646453857422}
+2024-09-06 15:05:57,215 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:05:57', 'duration': 0.2579517364501953}
+2024-09-06 15:07:08,986 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:07:08', 'duration': 0.29461097717285156}
+2024-09-06 15:07:08,996 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:07:08', 'duration': 0.000484466552734375}
+2024-09-06 15:07:09,024 , INFO , {'url': '/predict', 'method': 'POST', 'date': '06/09/2024 15:07:09', 'duration': 0.013762474060058594}
+2024-09-06 15:07:09,028 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:07:09', 'duration': 0.0008716583251953125}
+2024-09-06 15:07:09,304 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:07:09', 'duration': 0.2602505683898926}
+2024-09-06 15:07:54,380 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:07:54', 'duration': 0.3101494312286377}
+2024-09-06 15:07:54,389 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:07:54', 'duration': 0.0005679130554199219}
+2024-09-06 15:07:54,416 , INFO , {'url': '/predict', 'method': 'POST', 'date': '06/09/2024 15:07:54', 'duration': 0.013195037841796875}
+2024-09-06 15:07:54,422 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:07:54', 'duration': 0.001024007797241211}
+2024-09-06 15:07:54,751 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:07:54', 'duration': 0.3138389587402344}
+2024-09-06 15:10:46,779 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:10:46', 'duration': 0.4345536231994629}
+2024-09-06 15:10:46,786 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:10:46', 'duration': 0.0004661083221435547}
+2024-09-06 15:10:47,021 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:10:47', 'duration': 0.0012273788452148438}
+2024-09-06 15:10:47,552 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:10:47', 'duration': 0.5164756774902344}
+2024-09-06 15:12:52,152 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:12:52', 'duration': 0.2724936008453369}
+2024-09-06 15:12:52,162 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:12:52', 'duration': 0.0004565715789794922}
+2024-09-06 15:12:52,321 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:12:52', 'duration': 0.0012187957763671875}
+2024-09-06 15:12:52,618 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:12:52', 'duration': 0.28287529945373535}
+2024-09-06 15:13:10,034 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:13:10', 'duration': 0.2659597396850586}
+2024-09-06 15:13:10,043 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:13:10', 'duration': 0.000347137451171875}
+2024-09-06 15:13:10,147 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:13:10', 'duration': 0.0008759498596191406}
+2024-09-06 15:13:10,422 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:13:10', 'duration': 0.2589378356933594}
+2024-09-06 15:13:35,045 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:13:35', 'duration': 0.25874853134155273}
+2024-09-06 15:13:35,055 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:13:35', 'duration': 0.0003452301025390625}
+2024-09-06 15:13:35,153 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:13:35', 'duration': 0.0008144378662109375}
+2024-09-06 15:13:35,428 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:13:35', 'duration': 0.25623226165771484}
+2024-09-06 15:30:07,355 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:30:07', 'duration': 0.2819640636444092}
+2024-09-06 15:30:07,365 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:30:07', 'duration': 0.0007927417755126953}
+2024-09-06 15:30:07,648 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:30:07', 'duration': 0.0014553070068359375}
+2024-09-06 15:30:07,952 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:30:07', 'duration': 0.2847740650177002}
+2024-09-06 15:38:34,368 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:38:34', 'duration': 0.2770538330078125}
+2024-09-06 15:38:34,378 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:38:34', 'duration': 0.0003337860107421875}
+2024-09-06 15:38:34,718 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:38:34', 'duration': 0.001522064208984375}
+2024-09-06 15:38:35,024 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:38:35', 'duration': 0.291398286819458}
+2024-09-06 15:40:09,402 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:40:09', 'duration': 0.31646227836608887}
+2024-09-06 15:40:09,411 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:40:09', 'duration': 0.00034809112548828125}
+2024-09-06 15:40:11,552 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:40:11', 'duration': 0.002611875534057617}
+2024-09-06 15:40:11,853 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:40:11', 'duration': 0.2804393768310547}
+2024-09-06 15:40:27,769 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:40:27', 'duration': 0.2937431335449219}
+2024-09-06 15:40:27,819 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:40:27', 'duration': 0.0004000663757324219}
+2024-09-06 15:40:27,970 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:40:27', 'duration': 0.04750823974609375}
+2024-09-06 15:40:28,268 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:40:28', 'duration': 0.282259464263916}
+2024-09-06 15:41:52,800 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:41:52', 'duration': 0.29651975631713867}
+2024-09-06 15:41:52,809 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:41:52', 'duration': 0.00039267539978027344}
+2024-09-06 15:41:52,940 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:41:52', 'duration': 0.0010612010955810547}
+2024-09-06 15:41:53,248 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:41:53', 'duration': 0.29184484481811523}
+2024-09-06 15:45:07,107 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:45:07', 'duration': 0.2708430290222168}
+2024-09-06 15:45:07,115 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:45:07', 'duration': 0.00034117698669433594}
+2024-09-06 15:45:07,232 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:45:07', 'duration': 0.0016086101531982422}
+2024-09-06 15:45:07,542 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:45:07', 'duration': 0.29512667655944824}
+2024-09-06 15:46:09,596 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:46:09', 'duration': 0.2947721481323242}
+2024-09-06 15:46:09,648 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:46:09', 'duration': 0.0007295608520507812}
+2024-09-06 15:46:09,755 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:46:09', 'duration': 0.0009307861328125}
+2024-09-06 15:46:10,072 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:46:10', 'duration': 0.2988393306732178}
+2024-09-06 15:47:12,147 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:47:12', 'duration': 0.2680361270904541}
+2024-09-06 15:47:12,157 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:47:12', 'duration': 0.00048351287841796875}
+2024-09-06 15:47:12,270 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:47:12', 'duration': 0.0009827613830566406}
+2024-09-06 15:47:12,570 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:47:12', 'duration': 0.28274059295654297}
+2024-09-06 15:47:41,228 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:47:41', 'duration': 0.29305124282836914}
+2024-09-06 15:47:41,237 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:47:41', 'duration': 0.0006301403045654297}
+2024-09-06 15:47:41,357 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:47:41', 'duration': 0.0009186267852783203}
+2024-09-06 15:47:41,696 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:47:41', 'duration': 0.32012438774108887}
+2024-09-06 15:48:28,646 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:48:28', 'duration': 0.26781702041625977}
+2024-09-06 15:48:28,655 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:48:28', 'duration': 0.0004048347473144531}
+2024-09-06 15:48:28,812 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:48:28', 'duration': 0.0009114742279052734}
+2024-09-06 15:48:29,115 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:48:29', 'duration': 0.28619980812072754}
+2024-09-06 15:49:52,559 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:49:52', 'duration': 0.2803351879119873}
+2024-09-06 15:49:52,569 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:49:52', 'duration': 0.0006225109100341797}
+2024-09-06 15:49:52,685 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:49:52', 'duration': 0.0008802413940429688}
+2024-09-06 15:49:52,982 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:49:52', 'duration': 0.27982425689697266}
+2024-09-06 15:57:22,230 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:57:22', 'duration': 0.2813682556152344}
+2024-09-06 15:57:22,305 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:57:22', 'duration': 0.0005018711090087891}
+2024-09-06 15:57:22,583 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:57:22', 'duration': 0.1613938808441162}
+2024-09-06 15:57:22,882 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:57:22', 'duration': 0.28433918952941895}
+2024-09-06 15:59:35,848 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:59:35', 'duration': 0.2772231101989746}
+2024-09-06 15:59:35,857 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 15:59:35', 'duration': 0.00035953521728515625}
+2024-09-06 15:59:36,300 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 15:59:36', 'duration': 0.0010275840759277344}
+2024-09-06 15:59:36,618 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 15:59:36', 'duration': 0.3020768165588379}
+2024-09-06 16:02:42,267 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:02:42', 'duration': 0.28466320037841797}
+2024-09-06 16:02:42,275 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 16:02:42', 'duration': 0.00048232078552246094}
+2024-09-06 16:02:42,418 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 16:02:42', 'duration': 0.000997304916381836}
+2024-09-06 16:02:42,745 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:02:42', 'duration': 0.3005340099334717}
+2024-09-06 16:04:22,602 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:04:22', 'duration': 0.2853963375091553}
+2024-09-06 16:04:22,611 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 16:04:22', 'duration': 0.0003452301025390625}
+2024-09-06 16:04:22,725 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 16:04:22', 'duration': 0.0009810924530029297}
+2024-09-06 16:04:23,052 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:04:23', 'duration': 0.31027817726135254}
+2024-09-06 16:06:38,130 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:06:38', 'duration': 0.27281880378723145}
+2024-09-06 16:06:38,140 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 16:06:38', 'duration': 0.00036072731018066406}
+2024-09-06 16:06:38,281 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 16:06:38', 'duration': 0.017392873764038086}
+2024-09-06 16:06:38,588 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:06:38', 'duration': 0.2896842956542969}
+2024-09-06 16:18:23,709 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:18:23', 'duration': 0.28252410888671875}
+2024-09-06 16:18:23,717 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 16:18:23', 'duration': 0.0003514289855957031}
+2024-09-06 16:18:23,837 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 16:18:23', 'duration': 0.0008687973022460938}
+2024-09-06 16:18:24,145 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:18:24', 'duration': 0.295055627822876}
+2024-09-06 16:34:13,106 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:34:13', 'duration': 0.29393458366394043}
+2024-09-06 16:34:13,183 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 16:34:13', 'duration': 0.0007078647613525391}
+2024-09-06 16:34:13,333 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 16:34:13', 'duration': 0.000982046127319336}
+2024-09-06 16:34:13,659 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:34:13', 'duration': 0.30659937858581543}
+2024-09-06 16:37:58,038 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:37:58', 'duration': 0.2892277240753174}
+2024-09-06 16:37:58,048 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 16:37:58', 'duration': 0.0006368160247802734}
+2024-09-06 16:37:58,186 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 16:37:58', 'duration': 0.015979290008544922}
+2024-09-06 16:37:58,543 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:37:58', 'duration': 0.33803248405456543}
+2024-09-06 16:42:13,019 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:42:13', 'duration': 0.29784131050109863}
+2024-09-06 16:42:13,028 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 16:42:13', 'duration': 0.0004177093505859375}
+2024-09-06 16:42:13,421 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 16:42:13', 'duration': 0.0008723735809326172}
+2024-09-06 16:42:13,749 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:42:13', 'duration': 0.29592013359069824}
+2024-09-06 16:42:46,154 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:42:46', 'duration': 0.2792518138885498}
+2024-09-06 16:42:46,177 , INFO , {'url': '/home', 'method': 'GET', 'date': '06/09/2024 16:42:46', 'duration': 0.0005266666412353516}
+2024-09-06 16:42:46,325 , INFO , {'url': '/', 'method': 'GET', 'date': '06/09/2024 16:42:46', 'duration': 0.001725912094116211}
+2024-09-06 16:42:46,636 , INFO , {'url': '/auth/token', 'method': 'POST', 'date': '06/09/2024 16:42:46', 'duration': 0.29340195655822754}

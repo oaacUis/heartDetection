@@ -1,0 +1,15 @@
+uvicorn app.main:app --reload
+docker build -t <image-name> .
+docker run -d -p 5000:5000 --name <container-name> <image-name>
+docker swarm init
+docker stack deploy -c compose-config-swarm.yml my_dl_stack
+docker service ls
+docker service logs my_dl_stack_api -f
+docker service scale my_dl_stack_api=5
+docker stack rm my_dl_stack
+docker swarm leave --force
+
+ip addr show eth0
+docker run -d -v $(pwd):/app -p 5000:5000 --name <container-name> <image-name> # Para el main
+
+docker run -d -e UVICORN_WORKERS=4 -p 5001:5001 --name <container-name> <image-name>
