@@ -11,6 +11,11 @@ from utils.models import Users
 from passlib.context import CryptContext
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from jose import jwt, JWTError
+import dotenv
+import os
+
+dotenv.load_dotenv()
+
 
 print(sqlalchemy.__version__)
 
@@ -19,7 +24,8 @@ router = APIRouter(
     tags=['auth']
 )
 
-SECRET_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTcxODA2Mjk0NCwiaWF0IjoxNzE4MDYyOTQ0fQ.zN9eemsiMb7rGanbHVXumbU5wHJDnDBYg3jp8WoRaAg'
+
+SECRET_KEY = os.getenv("API_KEY")
 ALGORITHM = 'HS256'
 
 bcrypt_context = CryptContext(schemes=['bcrypt'],deprecated='auto')

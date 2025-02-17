@@ -1,27 +1,28 @@
 import pandas as pd  # type: ignore
 import numpy as np
 from sklearn.preprocessing import StandardScaler
-from keras.saving import load_model  # type: ignore
+#from keras.saving import load_model  # type: ignore
+from pycaret.classification import load_model
 from pathlib import Path  # type: ignore
 from fastapi import FastAPI, Request, HTTPException, status  # type: ignore
 from pydantic import BaseModel  # type: ignore
 from jose import JWTError, jwt  # type: ignore
+from dotenv import load_dotenv  # type: ignore
+import os  # type: ignore
 
-# from tensorflow.keras.layers import TSFMLayer
-# data = pd.read_csv("Input_file.csv")
-# import pipreqs
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
 
 BASE_DIR = Path(__file__).resolve(strict=True).parent
 
 __version__ = "1.0.0"
-# models\1\LSTM--1.0.0.h5
-model_path = "models/1/LSTM--1.0.0.h5"
+# models\1\saved_lr_model.plk
+model_path = "models/1/saved_lr_model.plk"
 model = load_model(model_path)
+
 diccionario_clases = {
-    0: "Arresto_cardiaco",
-    1: "Bajo_gasto_cardiaco",
-    2: "Sano",
-    3: "Shock_cardiogenico",
+    0: "Sano",
+    1: "Fallo Cardiaco",
 }
 
 
@@ -81,18 +82,21 @@ async def predict(request: Request, payload: dict):
 
     # Se filtran los datos con mayor numero de datos no validos
     # para realizar el procesamiento
+    # Age	Sex	ChestPainType	RestingBP	Cholesterol	FastingBS	RestingECG	MaxHR	ExerciseAngina	Oldpeak	ST_Slope
     columnas_deseadas = [
         "idAtencion",
         "fecRegistro",
-        "MDC_BLD_PERF_INDEX",
-        "MDC_ECG_HEART_RATE",
-        "MDC_ECG_V_P_C_RATE",
-        "MDC_LEN_BODY_ACTUAL",
-        "MDC_MASS_BODY_ACTUAL",
-        "MDC_PULS_OXIM_PULS_RATE",
-        "MDC_PULS_OXIM_SAT_O2",
-        "MDC_TEMP",
-        "MDC_TTHOR_RESP_RATE",
+        "Age",
+        "Sex",
+        "ChestPainType",
+        "RestingBP",
+        "Cholesterol",
+        "FastingBS",
+        "RestingECG",
+        "MaxHR",
+        "ExerciseAngina",
+        "Oldpeak",
+        "ST_Slope"
     ]
 
     # Filtrar el DataFrame para incluir solo las columnas deseadas
@@ -109,18 +113,20 @@ async def predict(request: Request, payload: dict):
 
     df_resultante_lleno = ultimas_20_filas_por_id.ffill()
 
-    # Caracteristicas seleccionadas
-
+    # Caracteristicas seleccionadasl  
     selected_features = [
-        "MDC_BLD_PERF_INDEX",
-        "MDC_ECG_HEART_RATE",
-        "MDC_ECG_V_P_C_RATE",
-        "MDC_LEN_BODY_ACTUAL",
-        "MDC_MASS_BODY_ACTUAL",
-        "MDC_PULS_OXIM_PULS_RATE",
-        "MDC_PULS_OXIM_SAT_O2",
-        "MDC_TEMP",
-        "MDC_TTHOR_RESP_RATE",
+        "Age",
+        "Cholesterol",
+        "FastingBS",
+        "MaxHR",
+        "Oldpeak",
+        "Sex_M",
+        "ChestPainType_ATA",
+        "ChestPainType_NAP",
+        "ChestPainType_TA",
+        "ExerciseAngina_Y",
+        "ST_Slope_Flat",
+        "ST_Slope_Up",
     ]
 
     features = df_resultante_lleno[selected_features]
@@ -182,10 +188,8 @@ async def predict(request: Request, payload: dict):
     return {
         "idAtencion": UserId,
         "inferences": {
-            "Arresto_Cardiaco": inference[0],
-            "Bajo_Gasto_Cardiaco": inference[1],
-            "Sano": inference[2],
-            "Shock_Cardiogenico": inference[3],
+            "Sano": inference[0],
+            "Ataque Cardiaco": inference[1],,
         },
         "State": inferences.State.unique().item(),
     }
@@ -193,7 +197,7 @@ async def predict(request: Request, payload: dict):
 
 def isValidToken(token: str):
 
-    secret_key = "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTcxODA2Mjk0NCwiaWF0IjoxNzE4MDYyOTQ0fQ.zN9eemsiMb7rGanbHVXumbU5wHJDnDBYg3jp8WoRaAg"
+    secret_key = API_KEY
 
     try:
         decoded_token = jwt.decode(token, secret_key, algorithms=["HS256"])

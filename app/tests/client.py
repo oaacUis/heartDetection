@@ -12,8 +12,8 @@ print(type(input_data))
 
 # Authentication credentials
 auth_data = {
-    "username": "CPS_DAVID_PEREZ_DEV",
-    "password": "UIS@123FCV"
+    "username": "CPS_OTTO_ANDRADE_DEV",
+    "password": "UIS@123"
 }
 
 

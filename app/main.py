@@ -35,7 +35,7 @@ user_dependency = Annotated[dict, Depends(get_current_user)]
 
 app.add_middleware(BaseHTTPMiddleware, dispatch=middleware_log)
 
-logger.info("Starting FCV-MLAPI....")
+logger.info("Starting API...")
 
 
 class BatchIn(BaseModel):
@@ -84,15 +84,13 @@ async def home():
         dict: A dict containing the health check status and model version.
     """
     await asyncio.sleep(0)  # type: ignore
-    model_version = "1.0.0"
-    return {"health_check": "OK", "model_version1": model_version}
-
-
+    API_version = "1.0.0"
+    return {"health_check": "OK", "API_version": API_version}
 
 
 def isValidToken(token: str):
 
-    secret_key = "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTcxODA2Mjk0NCwiaWF0IjoxNzE4MDYyOTQ0fQ.zN9eemsiMb7rGanbHVXumbU5wHJDnDBYg3jp8WoRaAg"
+    secret_key = SECRET_KEY
 
     try:
         decoded_token = jwt.decode(token, secret_key, algorithms=["HS256"])

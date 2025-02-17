@@ -10,7 +10,7 @@ base_url = "http://192.168.73.37:5000"
 # predict_url = "http://127.0.0.1:5001"
 predict_url = "http://192.168.73.37:5001"
 
-auth_data = {"username": "CPS_DAVID_PEREZ_DEV", "password": "UIS@123FCV"}
+auth_data = {"username": "CPS_OTTO_ANDRADE_DEV", "password": "UIS@123"}
 with open("input_test.json") as f:
     data = json.load(f)
 token = get_jwt_token(base_url + "/auth/token", auth_data)

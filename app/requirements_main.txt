@@ -3,7 +3,8 @@ annotated-types==0.7.0
 anyio==4.4.0
 astunparse==1.6.3
 bcrypt==3.2.0
-cachetools==5.3.3
+cachetools==5.3.
+catboost==1.2.7
 certifi==2024.6.2
 cffi==1.16.0
 charset-normalizer==3.3.2
