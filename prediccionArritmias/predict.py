@@ -6,7 +6,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 import logging  # type: ignore
 from pydantic import BaseModel  # type: ignore
-from jose import JWTError, jwt  # type: ignore
+from jose import JWTError, jws  # type: ignore
 from dotenv import load_dotenv  # type: ignore
 import os  # type: ignore
 
@@ -180,7 +180,7 @@ def isValidToken(token: str):
     secret_key = API_KEY
 
     try:
-        decoded_token = jwt.decode(token, secret_key, algorithms=["HS256"])
+        decoded_token = jws.verify(token, secret_key, algorithms=["HS256"])
         print(decoded_token is not None)
         return True
     except JWTError as e:

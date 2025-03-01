@@ -11,8 +11,9 @@ from routes.auth import get_current_user
 from utils.logger import logger
 from utils.middleware import middleware_log
 from utils import models
-from jose import JWTError, jwt 
+
 from routes.auth import Token, ALGORITHM, SECRET_KEY
+from jose import JWTError, jwt, jws
 
 
 app = FastAPI()
@@ -104,7 +105,7 @@ def isValidToken(token: str):
     secret_key = SECRET_KEY
 
     try:
-        decoded_token = jwt.decode(token, secret_key, algorithms=["HS256"])
+        decoded_token = jws.verify(token, secret_key, algorithms=["HS256"])
         print(decoded_token is not None)
         return True
     except JWTError as e:
