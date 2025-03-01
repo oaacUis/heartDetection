@@ -8,3 +8,6 @@ class Users(Base):
     id = Column(Integer, primary_key=True, index=True)
     username = Column(String, unique=True)
     hashed_password = Column(String)
+    
+    def __repr__(self):
+        return f"<Users(id={self.id}, title={self.username})>"

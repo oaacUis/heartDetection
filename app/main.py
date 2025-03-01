@@ -39,11 +39,22 @@ logger.info("Starting API...")
 
 
 class BatchIn(BaseModel):
-    idAtencion: int
-    idSigno: dict
-    nomSigno: dict
-    valor: dict
-    fecRegistro: dict
+    Age: int
+    RestingBP: int
+    Cholesterol: int
+    FastingBS: int
+    MaxHR: int
+    Oldpeak: float
+    Sex_M: bool
+    ChestPainType_ATA: bool
+    ChestPainType_NAP: bool
+    ChestPainType_TA: bool
+    RestingECG_Normal: bool
+    RestingECG_ST: bool
+    ExerciseAngina_Y: bool
+    ST_Slope_Flat: bool
+    ST_Slope_Up: bool
+    id: int
 
 
 class PredictionOut(BaseModel):
@@ -101,21 +112,16 @@ def isValidToken(token: str):
         return False
 
 
-@app.post("/predict")  # , response_model=PredictionOut)
+@app.post("/predict")
 async def generate_inference(payload: BatchIn, request: Request):
     headers = request.headers
     if isValidToken(headers.get('token')) is False:
         raise HTTPException(status_code=401, detail="Invalid_Token")
     else:
-        data = {
-            "idAtencion": payload.idAtencion,
-            "nomSigno": payload.nomSigno,
-            "valor": payload.valor,
-            "fecRegistro": payload.fecRegistro,
-            }
+        data = payload.model_dump()
 
         # inferences = await predict(data)
-        port_HTTP = '5001'
+        port_HTTP = '8000'
         # ip = "127.0.0.1"
         ip = "127.0.0.1"
         uri = ''.join(['http://', ip, ':', port_HTTP, '/models'])
@@ -128,7 +134,7 @@ async def generate_inference(payload: BatchIn, request: Request):
 
         try:
             # inferences = requests.post(uri, json=data, headers=headers1)
-            predict_url = "http://127.0.0.1:5001"
+            predict_url = "http://127.0.0.1:8000"
             inferences = requests.post(predict_url + "/models",
                                        json=data, headers=headers1)
         except requests.exceptions.RequestException as e:
